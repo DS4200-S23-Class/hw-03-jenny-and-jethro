@@ -1,0 +1,59 @@
+/* Styling goes in this file */
+
+/*Setting all fonts to Arial*/
+body {
+	font-family: Arial;
+}
+
+/* Any element with the class centered should have centered text */
+.centered {
+	text-align: center;
+}
+
+/* Indents all text on the right column and aligns each paragraph to the image they're describing*/
+#marks-and-channels-1 {
+	text-indent: 50px;
+	list-style-position: inside;
+}
+
+#marks-and-channels-2 {
+	padding-top: 250px;
+	text-indent: 50px;
+	list-style-position: inside;
+}
+
+/* Aligns text to the left */
+.leftaligned {
+	text-align: left;
+}
+
+/* Creates a flex container to make 2 flex columns with */
+.container {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 600px;
+}
+
+/* Resizes an image so it can fit in a flex column */
+.image-size{
+	height:auto;
+	width: 100%;
+	align-items: center;
+}
+
+/* One column made with flexbox css */
+.flex-left {
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-shrink:3;
+	flex-direction: column;
+}
+
+/* An adjacent column made with flexbox css */
+.flex-right {
+	flex-direction:column
+	width: 50%;
+}
+
+
