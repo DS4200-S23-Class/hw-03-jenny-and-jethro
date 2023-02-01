@@ -10,16 +10,15 @@ body {
 	text-align: center;
 }
 
-/* Indents all text on the right column and aligns each paragraph to the image they're describing*/
-#marks-and-channels-1 {
+/* Indents all text on the right column */ 
+#marks-and-channels {
 	text-indent: 50px;
 	list-style-position: inside;
 }
 
-#marks-and-channels-2 {
-	padding-top: 250px;
-	text-indent: 50px;
-	list-style-position: inside;
+/* Aligns each paragraph in the right column to the image they're describing */
+.lower-paragraph {
+	padding-top: 395px;
 }
 
 /* Aligns text to the left */
@@ -31,7 +30,7 @@ body {
 .container {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 600px;
+	padding-bottom: 395px;
 }
 
 /* Resizes an image so it can fit in a flex column */
