@@ -3,6 +3,7 @@
 /*Setting all fonts to Arial*/
 body {
 	font-family: Arial;
+
 }
 
 /* Any element with the class centered should have centered text */
@@ -14,6 +15,7 @@ body {
 #marks-and-channels {
 	text-indent: 50px;
 	list-style-position: inside;
+	align-content: flex-start;
 }
 
 /* Aligns each paragraph in the right column to the image they're describing */
@@ -31,6 +33,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	padding-bottom: 395px;
+	flex-wrap: wrap;
 }
 
 /* Resizes an image so it can fit in a flex column */
@@ -44,20 +47,24 @@ body {
 .flex-left {
 	width: 50%;
 	height: 100vh;
-	display: flex;
+	flex-wrap: flex;
 	flex-shrink:3;
 	flex-direction: column;
 	justify-content: space-around;
+
 }
 
 /* An adjacent column made with flexbox css */
 .flex-right {
-	flex-direction:column
+	flex-direction: column;
 	width: 50%;
 	font-size: 1vw;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 
 }
+
+
 
 

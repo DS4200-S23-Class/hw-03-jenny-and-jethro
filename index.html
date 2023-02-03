@@ -33,81 +33,44 @@
             <img class="image-size" src="img/pokemontypestrength.png" alt="vis3">
 
         </div>
-    </div>
-
-    <!-- Distinguishing the right side of the flex box -->
-    <div class="flex-right">
-
-        <!-- Identifying the marks, channels, and colormap(s) of the first visualization -->
-        <div id="marks-and-channels">
-            <br><h2>Marks</h2>
-            <ul>
-                <li>Lines???</li>
-                <li>Areas</li>
-            </ul>
-
-            <br><h2>Channels</h2>
-            <ul>
-                <li>Position --> Both
-                    <ul>
-                        <li>Represents attribute of categorical type. </li>
-                        <li>This is a good mapping because it follows the effectiveness principle and contributes to how digestible the visualization is. Each area is positioned relative to each other, which helps users differentiate between them and identify which one correlates to what U.S. state. Though position is not entirely what users depend on to identify the states, this channel does play a significant role in their ability to do so. The expressiveness principle is also followed because the way the information is shown does not imply an ordering exists among the categorical attributes.</li>
-                    </ul>
-                </li>
-                <li>Shape
-                    <ul>
-                        <li>Represents attribute of categorical type.</li>
-                        <li>This is a good mapping because it plays a major role as to how well users are able to distinguish between each area and identify the state it represents, which shows how this channel follows the effectiveness principle. The expressiveness principle is followed as well because the way the information is shown does not imply an ordering exists among this categorical attribute.</li>
-                    </ul>
-                </li>
-                <li>Size --> Area
-                    <ul>
-                        <li>Represents attribute of categorical type.</li>
-                        <li>This is an okay mapping because it works with position and shape to help users identify the corresponding U.S. states of each area, but does not greatly contribute to users' ability to do so. However, it still follows both the effectiveness and expressiveness principles because it helps to differentiate the states and doesn't imply an ordering.</li>
-                    </ul>
-                </li>
-                <li>Color
-                    <ul>
-                        <li>Represents attribute of categorical type.</li>
-                        <li>This is a good mapping because it helps users clearly identify which party each states' electoral votes would have went to, which is the main data that the visualization is trying to convey to users. The visualization uses two distinct colors to represent each party, which shows that both the effectiveness and expressiveness principles are followed.</li>
-                    </ul>
-                </li>
-            </ul>
 
 
-            <br><h2>Colormap(s)</h2>
-            <ul>
-                <li>Categorical
-                    <ul>
-                        <li>Represents attribute of categorical type (Clinton or Trump).</li>
-                        <li>This is a good mapping. The colors used in this visualization are of similar saturation and value, but are perceptually different. From this, users can see that there are two distinct categories that the visualization is focusing on.</li>
-                    </ul>
-                </li>
-            </ul>
+        <!-- Distinguishing the right side of the flex box -->
+        <div class="flex-right">
 
-
-
-            <!-- Identifying the marks, channels, and colormap(s) of the second visualization -->
-            <div id="marks-and-channels-2" class="lower-paragraph">
+            <!-- Identifying the marks, channels, and colormap(s) of the first visualization -->
+            <div id="marks-and-channels">
                 <br><h2>Marks</h2>
-
                 <ul>
-                    <li>Points</li>
+                    <li>Lines???</li>
+                    <li>Areas</li>
                 </ul>
 
                 <br><h2>Channels</h2>
                 <ul>
                     <li>Position --> Both
                         <ul>
-                            <li>Represents attribute of ordered (quantitative, diverging) type.</li>
-                            <li>This is a good mapping. Each point has two corresponding attributes: launch angle and exit velocity. In this visualization, the creator was able to use both horizontal and vertical positioning of the point to clearly and efficiently display these attributes. Additionally, it shows that some sort of order does exist based on each point's horizontal and vertical position relative to other points. As a result, both effectiveness and expressiveness principles are followed.</li>
+                            <li>Represents attribute of categorical type. </li>
+                            <li>This is a good mapping because it follows the effectiveness principle and contributes to how digestible the visualization is. Each area is positioned relative to each other, which helps users differentiate between them and identify which one correlates to what U.S. state. Though position is not entirely what users depend on to identify the states, this channel does play a significant role in their ability to do so. The expressiveness principle is also followed because the way the information is shown does not imply an ordering exists among the categorical attributes.</li>
                         </ul>
-                        <li>Color --> Saturation + Hue(????)
-                            <ul>
-                                <li>Represents attribute of ordered (ordinal, sequential) type.</li>
-                                <li>This is a questionable mapping. Though the different shades of points do help to display the varying levels of angles and velocities, points do overlap each other so it is hard to distinguish each of them and their respective values. Whether the effectiveness principle is followed is questionable, but it is clear that the expressiveness principle is shown because the positioning and the saturation level/hue of the points convey an ordering exists.</li>
-                            </ul>
-                        </li>
+                    </li>
+                    <li>Shape
+                        <ul>
+                            <li>Represents attribute of categorical type.</li>
+                            <li>This is a good mapping because it plays a major role as to how well users are able to distinguish between each area and identify the state it represents, which shows how this channel follows the effectiveness principle. The expressiveness principle is followed as well because the way the information is shown does not imply an ordering exists among this categorical attribute.</li>
+                        </ul>
+                    </li>
+                    <li>Size --> Area
+                        <ul>
+                            <li>Represents attribute of categorical type.</li>
+                            <li>This is an okay mapping because it works with position and shape to help users identify the corresponding U.S. states of each area, but does not greatly contribute to users' ability to do so. However, it still follows both the effectiveness and expressiveness principles because it helps to differentiate the states and doesn't imply an ordering.</li>
+                        </ul>
+                    </li>
+                    <li>Color
+                        <ul>
+                            <li>Represents attribute of categorical type.</li>
+                            <li>This is a good mapping because it helps users clearly identify which party each states' electoral votes would have went to, which is the main data that the visualization is trying to convey to users. The visualization uses two distinct colors to represent each party, which shows that both the effectiveness and expressiveness principles are followed.</li>
+                        </ul>
                     </li>
                 </ul>
 
@@ -121,51 +84,89 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
 
 
 
-            <!-- Identifying the marks, channels, and colormap(s) of the third visualization -->
-            <div id="marks-and-channels" class="lower-paragraph">
-                <br><h2>Marks</h2>
-                <ul>
-                    <li>Lines</li>
-                </ul>
+                <!-- Identifying the marks, channels, and colormap(s) of the second visualization -->
+                <div id="marks-and-channels-2" class="lower-paragraph">
+                    <br><h2>Marks</h2>
 
-                <br><h2>Channels</h2>
-                <ul>
-                    <li>Position --> Both
-                        <ul>
-                            <li>Represents attribute of categorical (horizontal spacing) and quantitative (sequential??) (vertical spacing) type.</li>
-                            <li>This is a good mapping because it makes use of both vertical and horizontal spaces to clearly display  the two attributes of the data. The use of vertical space also indicates that an ordering exists among the different categories. Thus, both principles of effectiveness and expressiveness are followed.</li>
-                        </ul>
-                    </li>
+                    <ul>
+                        <li>Points</li>
+                    </ul>
 
-                    <li>Size --> Length
-                        <ul>
-                            <li>Represents attribute of quantitative (sequential??) type.</li>
-                            <li>This is a good mapping because it  displays an ordering through the height of the bars and it is clear as to what data it is trying to represent, so both principles are followed.</li>
-                        </ul>
-                    </li>
+                    <br><h2>Channels</h2>
+                    <ul>
+                        <li>Position --> Both
+                            <ul>
+                                <li>Represents attribute of ordered (quantitative, diverging) type.</li>
+                                <li>This is a good mapping. Each point has two corresponding attributes: launch angle and exit velocity. In this visualization, the creator was able to use both horizontal and vertical positioning of the point to clearly and efficiently display these attributes. Additionally, it shows that some sort of order does exist based on each point's horizontal and vertical position relative to other points. As a result, both effectiveness and expressiveness principles are followed.</li>
+                            </ul>
+                            <li>Color --> Saturation + Hue(????)
+                                <ul>
+                                    <li>Represents attribute of ordered (ordinal, sequential) type.</li>
+                                    <li>This is a questionable mapping. Though the different shades of points do help to display the varying levels of angles and velocities, points do overlap each other so it is hard to distinguish each of them and their respective values. Whether the effectiveness principle is followed is questionable, but it is clear that the expressiveness principle is shown because the positioning and the saturation level/hue of the points convey an ordering exists.</li>
+                                </ul>
+                            </li>
+                        </li>
+                    </ul>
 
-                    <li>Color --> Hue
-                        <ul>
-                            <li>Represents attribute of categorical type.</li>
-                            <li>This is a good mapping because each hue is used to represent a different category (Pokemon), which helps users to be able to quickly identify each bar and understand that there is no existing ordering. This follows both the principles of effectiveness and expressiveness.</li>
-                        </ul>
-                    </li>
-                </ul>
 
-                <br><h2>Colormap(s)</h2>
-                <ul>
-                    <li>Categorical
-                        <ul>
-                            <li>Represents attribute of categorical type.</li>
-                            <li>This is a good mapping because the colors used are of different hues but similar saturation and luminance. As a result, it is clear that only one attribute (different categories of Pokemon) is being conveyed. Additionally, it is easy to distinguish between all categories.</li>
-                        </ul>
-                    </li>
-                </ul>
-                <br>                
+                    <br><h2>Colormap(s)</h2>
+                    <ul>
+                        <li>Categorical
+                            <ul>
+                                <li>Represents attribute of categorical type (Clinton or Trump).</li>
+                                <li>This is a good mapping. The colors used in this visualization are of similar saturation and value, but are perceptually different. From this, users can see that there are two distinct categories that the visualization is focusing on.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <!-- Identifying the marks, channels, and colormap(s) of the third visualization -->
+                <div id="marks-and-channels" class="lower-paragraph">
+                    <br><h2>Marks</h2>
+                    <ul>
+                        <li>Lines</li>
+                    </ul>
+
+                    <br><h2>Channels</h2>
+                    <ul>
+                        <li>Position --> Both
+                            <ul>
+                                <li>Represents attribute of categorical (horizontal spacing) and quantitative (sequential??) (vertical spacing) type.</li>
+                                <li>This is a good mapping because it makes use of both vertical and horizontal spaces to clearly display  the two attributes of the data. The use of vertical space also indicates that an ordering exists among the different categories. Thus, both principles of effectiveness and expressiveness are followed.</li>
+                            </ul>
+                        </li>
+
+                        <li>Size --> Length
+                            <ul>
+                                <li>Represents attribute of quantitative (sequential??) type.</li>
+                                <li>This is a good mapping because it  displays an ordering through the height of the bars and it is clear as to what data it is trying to represent, so both principles are followed.</li>
+                            </ul>
+                        </li>
+
+                        <li>Color --> Hue
+                            <ul>
+                                <li>Represents attribute of categorical type.</li>
+                                <li>This is a good mapping because each hue is used to represent a different category (Pokemon), which helps users to be able to quickly identify each bar and understand that there is no existing ordering. This follows both the principles of effectiveness and expressiveness.</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <br><h2>Colormap(s)</h2>
+                    <ul>
+                        <li>Categorical
+                            <ul>
+                                <li>Represents attribute of categorical type.</li>
+                                <li>This is a good mapping because the colors used are of different hues but similar saturation and luminance. As a result, it is clear that only one attribute (different categories of Pokemon) is being conveyed. Additionally, it is easy to distinguish between all categories.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br>                
+                </div>
             </div>
         </div> 
     </body>
@@ -182,7 +183,8 @@
             <li><a href="https://www.w3schools.com/cssref/pr_text_text-indent.php">Indenting Text with CSS</a></li>
             <li><a href="https://stackoverflow.com/questions/42531020/add-indents-to-bullet-points">Adding Indents to Bullet Points with CSS</a></li>
             <li><a href="https://www.kaggle.com/datasets/abcsds/pokemon">Pokémon Stat Dataset</a></li>
-            <li><a href="https://stackoverflow.com/questions/49710444/fit-text-into-flexbox-container">Text in Flexbox</a></li>
+            <li><a href="https://stackoverflow.com/questions/49710444/fit-text-into-flexbox-container">Dealing with Text in Flexbox</a></li>
+            <li><a href="https://stackoverflow.com/questions/62413587/how-can-i-place-text-next-to-an-image-with-flexbox">Fixing Positions of Images in Flexbox</a></li>
         </ul>
     </div>
-</html>
+    </html>
