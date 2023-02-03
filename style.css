@@ -20,7 +20,7 @@ body {
 
 /* Aligns each paragraph in the right column to the image they're describing */
 .lower-paragraph {
-	padding-top: 395px;
+	padding-top: 600px;
 }
 
 /* Aligns text to the left */
@@ -65,6 +65,28 @@ body {
 
 }
 
+#header{
+	font-size: 2vw;
+}
+
+#acknowledgements{
+	font-size: 1.3vw;
+}
+
+#d3{
+	font-size: 1.3vw;
+}
+
+.button{
+	height:80px;
+ 	width:80px;
+	font-size: 12px;
+	background-color:red;
+}
+
+#button-div{
+	font-size: 100px;
+}
 
 
 

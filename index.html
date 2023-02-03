@@ -9,7 +9,7 @@
     <title>hw-03</title>
 
     <!-- Adding centered header -->
-    <h1 class="centered">hw-03: Interactive Webpage, and Marks & Channels</h1>
+    <h1 class="centered" id="header">hw-03: Interactive Webpage, and Marks & Channels</h1>
 </head>
 
 
@@ -42,7 +42,6 @@
             <div id="marks-and-channels">
                 <br><h2>Marks</h2>
                 <ul>
-                    <li>Lines???</li>
                     <li>Areas</li>
                 </ul>
 
@@ -84,11 +83,11 @@
                         </ul>
                     </li>
                 </ul>
-
+            </div>
 
 
                 <!-- Identifying the marks, channels, and colormap(s) of the second visualization -->
-                <div id="marks-and-channels-2" class="lower-paragraph">
+                <div id="marks-and-channels" class="lower-paragraph">
                     <br><h2>Marks</h2>
 
                     <ul>
@@ -102,7 +101,7 @@
                                 <li>Represents attribute of ordered (quantitative, diverging) type.</li>
                                 <li>This is a good mapping. Each point has two corresponding attributes: launch angle and exit velocity. In this visualization, the creator was able to use both horizontal and vertical positioning of the point to clearly and efficiently display these attributes. Additionally, it shows that some sort of order does exist based on each point's horizontal and vertical position relative to other points. As a result, both effectiveness and expressiveness principles are followed.</li>
                             </ul>
-                            <li>Color --> Saturation + Hue(????)
+                            <li>Color --> Saturation + Hue
                                 <ul>
                                     <li>Represents attribute of ordered (ordinal, sequential) type.</li>
                                     <li>This is a questionable mapping. Though the different shades of points do help to display the varying levels of angles and velocities, points do overlap each other so it is hard to distinguish each of them and their respective values. Whether the effectiveness principle is followed is questionable, but it is clear that the expressiveness principle is shown because the positioning and the saturation level/hue of the points convey an ordering exists.</li>
@@ -114,10 +113,10 @@
 
                     <br><h2>Colormap(s)</h2>
                     <ul>
-                        <li>Categorical
+                        <li>Divergent
                             <ul>
-                                <li>Represents attribute of categorical type (Clinton or Trump).</li>
-                                <li>This is a good mapping. The colors used in this visualization are of similar saturation and value, but are perceptually different. From this, users can see that there are two distinct categories that the visualization is focusing on.</li>
+                                <li>Represents attribute of ordered divergent type (range from below to average to above average limits.</li>
+                                <li>This mapping is good because ordered divergent attributes are best represented by divergent color maps. Clearly, two colors (purple and orange) are used to represent the two extrenes within the data values, which are below and above average limits. In theory, white would have been a good choice for representing the "average" of the data since it's a neutral color (for this visualization specifically, though, it's a poor choice of color since it blends easily with the background of the visualization and could be misinterpreted as "no data" rather than "average data."</li>
                             </ul>
                         </li>
                     </ul>
@@ -136,22 +135,16 @@
                     <ul>
                         <li>Position --> Both
                             <ul>
-                                <li>Represents attribute of categorical (horizontal spacing) and quantitative (sequential??) (vertical spacing) type.</li>
-                                <li>This is a good mapping because it makes use of both vertical and horizontal spaces to clearly display  the two attributes of the data. The use of vertical space also indicates that an ordering exists among the different categories. Thus, both principles of effectiveness and expressiveness are followed.</li>
+                                <li>Represents attribute of categorical (horizontal spacing) and quantitative (vertical spacing) type.</li>
+                                <li>This is a good mapping because it makes use of both vertical and horizontal spaces to clearly display the two attributes of the data. The vertical spacing logically makes sense: the taller a bar, the greater the average total of a certain Pokémon type. Hence, the use of a vertical axis that allows one to perceptually measure each bar on a common scale allows one to effectively compare the Pokémon type's average totals, which are quantitative data. Furthermore, the bars are scaled effectively and match human perceptual judgement to the objective measurement of an average total. The levels of the channel are clearly discriminable due to how vastly different the colors of each bar are how the scaling of the y-axis makes it easy to distinguish the differences in height across each bar. The channels exist independently of others as position and hue are fully separable. The colors of each bar have the same level of saturation, so no bar visually pops out, which isn't really necessary for interpreting this bar chart. Perhaps some people might erroneously group certain Pokémon types together if they are represented by bars of similar colors, but the annotations on the horizontal axis clear up confusion on that matter. The Pokémon's type, a categorical attribute, is used to disperse the bars along the horizontal axis. Perceptually, the horizontal spacing of the different categories of Pokémon type are a good way to express categorical data. Thus, both principles of effectiveness and expressiveness are followed.</li>
                             </ul>
                         </li>
 
-                        <li>Size --> Length
-                            <ul>
-                                <li>Represents attribute of quantitative (sequential??) type.</li>
-                                <li>This is a good mapping because it  displays an ordering through the height of the bars and it is clear as to what data it is trying to represent, so both principles are followed.</li>
-                            </ul>
-                        </li>
 
                         <li>Color --> Hue
                             <ul>
                                 <li>Represents attribute of categorical type.</li>
-                                <li>This is a good mapping because each hue is used to represent a different category (Pokemon), which helps users to be able to quickly identify each bar and understand that there is no existing ordering. This follows both the principles of effectiveness and expressiveness.</li>
+                                <li>This is a good mapping because each hue is used to represent a different category (Pokémon type), which helps users to be able to quickly identify each bar and understand that there is no existing ordering. Hue is a strong way to exhibit categorical data. Furthermore, this bar chart matches types with colors that semantically seem aligned. For instance, water types are logically symbolized in a blue bar, fire types are logically represented in a red bar, and grass types are logically represented in a green bar. This follows both the principles of effectiveness and expressiveness. No illusions are created via saturation, mark typing and sizing, simultaenous contrast, or the Von Bezold Spreading Effect.</li>
                             </ul>
                         </li>
                     </ul>
@@ -164,17 +157,27 @@
                                 <li>This is a good mapping because the colors used are of different hues but similar saturation and luminance. As a result, it is clear that only one attribute (different categories of Pokemon) is being conveyed. Additionally, it is easy to distinguish between all categories.</li>
                             </ul>
                         </li>
-                    </ul>
-                    <br>                
-                </div>
+                    </ul>   
+                </div>            
             </div>
-        </div> 
+        </div>
     </body>
 
+    <div>
 
+    <!-- counts the number of times a button was clicked -->
+    <button class="button" type="button" onClick="buttonClicked(
+        )"></button>
+
+    <div id="button-div" class="gen">
+        Fibonacci Sequence (after 0): 1
+    </div>
+    <script src="main.js"></script>
+
+</div>
 
     <!-- Creating a new section and listing the resources used for the assignment -->
-    <h3 class="centered">Acknowledgements</h3>
+    <h3 id="acknowledgements" class="centered">Acknowledgements</h3>
 
     <!-- Listing resources used -->
     <div id="d3">
@@ -185,6 +188,9 @@
             <li><a href="https://www.kaggle.com/datasets/abcsds/pokemon">Pokémon Stat Dataset</a></li>
             <li><a href="https://stackoverflow.com/questions/49710444/fit-text-into-flexbox-container">Dealing with Text in Flexbox</a></li>
             <li><a href="https://stackoverflow.com/questions/62413587/how-can-i-place-text-next-to-an-image-with-flexbox">Fixing Positions of Images in Flexbox</a></li>
-        </ul>
+            <li><a href="https://www.w3schools.com/csS/css3_buttons.asp">CSS Buttons</a></li>
+            <li><a href="https://www.geeksforgeeks.org/initializing-a-list-in-java/">Initializing a List in Java</a>
+            <li><a href="https://www.baeldung.com/java-random-list-element">Java - Get Random Item/Element From A List</a></li>
+        
     </div>
-    </html>
+</html>
