@@ -47,12 +47,17 @@ body {
 	display: flex;
 	flex-shrink:3;
 	flex-direction: column;
+	justify-content: space-around;
 }
 
 /* An adjacent column made with flexbox css */
 .flex-right {
 	flex-direction:column
 	width: 50%;
+	font-size: 1vw;
+	justify-content: center;
+	align-items: center;
+
 }
 
 
