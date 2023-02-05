@@ -84,14 +84,14 @@ body {
 }
 
 .button{
-	height:500px;
- 	width:500px;
+	height:300px;
+ 	width:300px;
 	font-size: 1.2vw;
 	background-color:red;
 	border-radius:50%;
 	border:orange;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
+	transform: translate(25%, -50%);
+	-ms-transform: translate(25%, -50%);
 	color: black;
 	cursor: pointer;
 	text-align: center;
@@ -107,7 +107,9 @@ body {
 }
 
 #button-div{
-	font-size: 3vw;
+	font-size: 2vw;
+	right: 200;
+	height: 90vh;
 }
 
 
