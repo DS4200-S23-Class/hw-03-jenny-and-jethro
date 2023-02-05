@@ -32,7 +32,7 @@ body {
 .container {
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 395px;
+	padding-bottom: 295px;
 	flex-wrap: wrap;
 }
 
@@ -105,15 +105,15 @@ body {
 
 }
 
-/* Updates button when clicked on */
+/* Updates button when hovered over */
 .button:hover {
 	background-color:#4CAF50;
-	color:white;
 	border: yellow;
 }
 
 /* Adjusts button */
 #button-div{
+	padding-top: 150px;
 	font-size: 2vw;
 	right: 200;
 	height: 90vh;
