@@ -43,10 +43,13 @@ body {
 	align-items: center;
 }
 
+
+/* Adds padding above the 2nd visualization */
 #vis2{
 	padding-top: 1800px;
 }
 
+/* Adds padding above the 3rd visualization */
 #vis3{
 	padding-top: 600px;
 }
@@ -71,18 +74,22 @@ body {
 
 }
 
+/* Adjusts font size of header */
 #header{
-	font-size: 2vw;
+	font-size: 3vw;
 }
 
+/* Sets font size of Acknowledgements section */
 #acknowledgements{
 	font-size:1.3vw;
 }
 
+/* Sets font size of the resources used */
 #d3{
 	font-size:1.3vw;
 }
 
+/* Formats and styles the button */
 .button{
 	height:300px;
  	width:300px;
@@ -98,14 +105,14 @@ body {
 
 }
 
-
-
+/* Updates button when clicked on */
 .button:hover {
 	background-color:#4CAF50;
 	color:white;
 	border: yellow;
 }
 
+/* Adjusts button */
 #button-div{
 	font-size: 2vw;
 	right: 200;
