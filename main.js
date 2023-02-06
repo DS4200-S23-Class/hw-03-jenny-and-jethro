@@ -1,7 +1,7 @@
 
 // button function
 
-// to update the fibonacci number shown
+// to update the Fibonacci number shown
 let fibonacci_first = 0;
 let fibonacci_second = 1;
 
@@ -18,13 +18,13 @@ let eeveeList = ["img/eeveelutions.jpg",
 	"https://assets.pokemon.com/assets/cms2/img/pokedex/full/133.png",
 	"https://stock.flashmode.tn/wp-content/uploads/2020/06/peppa-pig-transparent-background-png-606.png"];
 
-// updates the value for the number of times the button was clicked and the image
+// updates the value for the number of times the button was clicked and the button's image
 function buttonClicked() {
 
 	// printing to console
 	console.log("button was clicked!");
 
-	// updating fibonacci number 
+	// updating Fibonacci number 
 	fibonacci_new = fibonacci_first + fibonacci_second;
 	let buttonClickTracker = "Fibonacci Sequence: " + fibonacci_new;
 	fibonacci_first = fibonacci_second;
