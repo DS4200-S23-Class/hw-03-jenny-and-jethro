@@ -6,7 +6,7 @@ let fibonacci_first = 0;
 let fibonacci_second = 1;
 
 // to update the picture shown
-let eeveeList = ["img/eeveelutions.jpg", 
+const eeveeList = ["img/eeveelutions.jpg", 
 	"https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png", 
 	"https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png",
 	"https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png",
@@ -25,7 +25,7 @@ function buttonClicked() {
 	console.log("button was clicked!");
 
 	// updating Fibonacci number 
-	fibonacci_new = fibonacci_first + fibonacci_second;
+	let fibonacci_new = fibonacci_first + fibonacci_second;
 	let buttonClickTracker = "Fibonacci Sequence: " + fibonacci_new;
 	fibonacci_first = fibonacci_second;
 	fibonacci_second = fibonacci_new;
