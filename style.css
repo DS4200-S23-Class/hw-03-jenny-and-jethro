@@ -13,14 +13,13 @@ body {
 
 /* Indents all text on the right column */ 
 #marks-and-channels {
-	text-indent: 50px;
-	list-style-position: inside;
-	align-content: flex-start;
+	margin: 0px;
+	padding-left: 40px;
 }
 
 /* Aligns each paragraph in the right column to the image they're describing */
 .lower-paragraph {
-	padding-top: 600px;
+	padding-top: 100px;
 }
 
 /* Aligns text to the left */
