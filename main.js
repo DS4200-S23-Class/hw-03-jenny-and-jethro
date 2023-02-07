@@ -1,11 +1,11 @@
 
 // button function
 
-// to update the Fibonacci number shown
+// updates the Fibonacci number shown
 let fibonacci_first = 0;
 let fibonacci_second = 1;
 
-// to update the picture shown
+// updates the picture shown on the button
 const eeveeList = ["img/eeveelutions.jpg", 
 	"https://assets.pokemon.com/assets/cms2/img/pokedex/full/196.png", 
 	"https://assets.pokemon.com/assets/cms2/img/pokedex/full/700.png",
@@ -24,7 +24,7 @@ function buttonClicked() {
 	// printing to console
 	console.log("button was clicked!");
 
-	// updating Fibonacci number 
+	// updating the Fibonacci number 
 	let fibonacci_new = fibonacci_first + fibonacci_second;
 	let buttonClickTracker = "Fibonacci Sequence: " + fibonacci_new;
 	fibonacci_first = fibonacci_second;
@@ -34,6 +34,7 @@ function buttonClicked() {
 	// locate an element in the html document via its ID
 	let buttonDiv = document.getElementById("button-div");
 
+	// changing the text near the button
 	buttonDiv.innerHTML = buttonClickTracker;
 
 	// changing button image

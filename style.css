@@ -22,11 +22,6 @@ body {
 	padding-top: 100px;
 }
 
-/* Aligns text to the left */
-.leftaligned {
-	text-align: left;
-}
-
 /* Creates a flex container to make 2 flex columns with */
 .container {
 	display: flex;
@@ -80,12 +75,12 @@ body {
 
 /* Sets font size of Acknowledgements section */
 #acknowledgements{
-	font-size:1.3vw;
+	font-size:1.5vw;
 }
 
 /* Sets font size of the resources used */
 #d3{
-	font-size:1.3vw;
+	font-size:1.0vw;
 }
 
 /* Formats and styles the button */
@@ -110,7 +105,7 @@ body {
 	border: yellow;
 }
 
-/* Adjusts button */
+/* Adjusts button further*/
 #button-div{
 	padding-top: 150px;
 	font-size: 2vw;
