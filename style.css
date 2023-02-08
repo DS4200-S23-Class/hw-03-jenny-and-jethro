@@ -54,7 +54,6 @@ body {
 	flex-wrap: flex;
 	flex-shrink:3;
 	flex-direction: column;
-	justify-content: space-between;
 }
 
 /* An adjacent column made with flexbox css */
