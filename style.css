@@ -87,7 +87,6 @@ body {
 .button{
 	height:300px;
  	width:300px;
-	font-size: 1.2vw;
 	background-color:red;
 	border-radius:50%;
 	border:orange;
@@ -108,8 +107,8 @@ body {
 /* Adjusts button further*/
 #button-div{
 	padding-top: 150px;
-	font-size: 2vw;
-	right: 200;
+	font-size: 50px;
+	right: 200px;
 }
 
 
