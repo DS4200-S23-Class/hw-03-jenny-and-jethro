@@ -19,7 +19,7 @@ body {
 
 /* Aligns each paragraph in the right column to the image they're describing */
 .lower-paragraph {
-	padding-top: 100px;
+	padding-top: 200px;
 }
 
 /* Creates a flex container to make 2 flex columns with */
