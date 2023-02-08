@@ -85,8 +85,8 @@ body {
 
 /* Formats and styles the button */
 .button{
-	height:300px;
- 	width:300px;
+	height:8%;
+ 	width:8%;
 	background-color:red;
 	border-radius:50%;
 	border:orange;
