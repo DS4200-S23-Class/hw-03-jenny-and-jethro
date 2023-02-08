@@ -90,8 +90,6 @@ body {
 	background-color:red;
 	border-radius:50%;
 	border:orange;
-	transform: translate(25%, -50%);
-	-ms-transform: translate(25%, -50%);
 	color: black;
 	cursor: pointer;
 	text-align: center;
